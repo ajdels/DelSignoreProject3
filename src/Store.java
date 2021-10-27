@@ -9,9 +9,7 @@ import java.util.ArrayList;
 import java.util.Optional;
 import java.util.Scanner;
 
-    /**
-     * Class Store
-     */
+
     public class Store {
 
         //
@@ -43,8 +41,7 @@ import java.util.Scanner;
 
         }
 
-        /**
-         */
+
         public void runStore() throws IOException
         {
             var inputReader = new Scanner(System.in);
@@ -120,8 +117,7 @@ import java.util.Scanner;
 
 
 
-        /**
-         */
+
         public void addCustomer(Scanner inputReader)
         {
             //because we just came from a nextInt, there is an orphaned \n on the input stream eat it
@@ -135,13 +131,7 @@ import java.util.Scanner;
         }
 
 
-        /**
-         * @return       Customer
-         * the original UML called for returning a Customer Object rather than an Optional
-         * since I didn't know when I designed this if we would hit optional by then or not
-         * but I invited anyone who asked to use Optional if they wanted to
-         * either way is perfectly fine
-         */
+
         public Optional<Customers> selectCustomer(Scanner reader)
         {
             System.out.print("Enter the ID of the customer to select:");

@@ -33,9 +33,7 @@
 
 
 
-        /**
-         * @return       String
-         */
+
         public String toString()
         {
             if(AddressLine2.length() > 0)

@@ -1,6 +1,6 @@
+import java.util.ArrayList;
 
-
-    /**
+/**
      * Class Order
      */
     public class Order {
@@ -27,20 +27,19 @@
         // Methods
         //
 
-        /**
-         * @return       String
-         */
+
         public String getDestination()
         {
             return destination.toString();
         }
 
 
-        /**
-         * @return       String
-         */
+
         public String getOrderer()
         {
             return orderedBy.toString();
         }
-}
+
+    private Object MerchandiseItem;
+    private final double cartForOrder = ArrayList<MerchandiseItem>;
+    }

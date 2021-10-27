@@ -8,7 +8,7 @@ public class Customers {
     // Fields
     //
     private ArrayList<ShippingAddress> Addresses;
-    private String Name;
+    public String Name;
     private int customerID;
     private static int nextID = 5000; //all preloaded customers from the text file must have IDs lower than 5000
 
@@ -85,6 +85,12 @@ public class Customers {
     public String toString()
     {
         return "Customer Name: " + Name +"\nCustomerID: "+customerID + "\nWith "+Addresses.size() + " addresses on file";
+    }
+    public String arrangeDelivery{
+        System.out.println(Name + "deliver any time");
+    }
+    public double payOutstandingBalance{
+        return 0;
     }
 
 
